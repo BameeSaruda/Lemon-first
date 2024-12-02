@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>Lemon</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body {
+              background-image: url('./idol/idolBG3.png');
+              background-repeat: no-repeat;
+              background-attachment: fixed; 
+              background-size: 100% 100%;
+            }
+
+            body {
+                cursor: url("cursorStar.png"), auto;
+            }
+
+            img:hover{
+                animation: shake 0.5s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes shake{
+                0%{transform: translate(1px,1px) rotate(0deg);}
+                25%{transform: translate(-1px,-1px) rotate(-1deg);}
+                50%{transform: translate(0px,0px) rotate(1deg);}
+                75%{transform: translate(1px,1px) rotate(0deg);}
+            }
+        </style>
+    </head>
+
+    <body>
+        <a href="parasocial.html">
+            <p>-</p>
+            </a>
+
+            <img class="light" src="idol/idolLight.png"
+            width=100%">
+
+            <img class="shadow" src="idol/idolShadow.png"
+            width=150px">
+
+    </body>
+
+</html>

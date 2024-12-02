@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>Lemon</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body {
+              background-image: url('./lemon/lemonBG.png');
+              background-repeat: no-repeat;
+              background-attachment: fixed; 
+              background-size: 100% 100%;
+              cursor: url('./lemon/lemonBasket1.png');
+            }
+            img:hover{
+                animation: shake 0.5s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes shake{
+                0%{transform: translate(1px,1px) rotate(0deg);}
+                25%{transform: translate(-1px,-1px) rotate(-1deg);}
+                50%{transform: translate(0px,0px) rotate(1deg);}
+                75%{transform: translate(1px,1px) rotate(0deg);}
+            }
+        </style>
+    </head>
+
+    <body>
+        <a href="sodapop.html">
+            <p>-</p>
+            </a>
+
+            <img class="lemonbasket1" src="lemon/lemonBasket1.png"
+            width=110px"> 
+
+            <img class="lemonbasket2" src="lemon/lemonBasket2.png"
+            width=110px">
+
+            <img class="lemonbasket3" src="lemon/lemonBasket3.png"
+            width=150px">
+
+            <img class="lemonsqueeze" src="lemon/lemonSqueeze.png"
+            height=250px">
+
+          <img class="lemoncut" src='lemon/lemonCut1.png' onmouseover="this.src='lemon/lemonCut2.png';" onmouseout="this.src='lemon/lemonCut1.png';" />
+
+    </body>
+
+</html>

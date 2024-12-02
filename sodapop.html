@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>Lemon</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            img:hover{
+                animation: shake 0.5s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes shake{
+                0%{transform: translate(1px,1px) rotate(0deg);}
+                25%{transform: translate(-1px,-1px) rotate(-1deg);}
+                50%{transform: translate(0px,0px) rotate(1deg);}
+                75%{transform: translate(1px,1px) rotate(0deg);}
+            }
+        </style> 
+    </head>
+
+    <body>
+
+        <script>
+            function bigImg(x) {
+              x.style.height = "auto";
+              x.style.width = "400px";
+              x.style.top = "50px";
+              x.style.right = "110px";
+            }
+            
+            function normalImg(x) {
+              x.style.height = "auto";
+              x.style.width = "300px";
+              x.style.right = "160px";
+              x.style.top = "140px";
+            }
+            </script>
+
+        <a href="citypop.html">
+            <p>-</p>
+            </a>
+
+            <img class="can" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="sodapop/sodapopCan.png"
+            width=300px">
+
+            <div class="container">
+            
+                <video autoplay loop muted plays-inline class="background-clip">
+                    <source src="sodapop/sodapopBG.mp4" type="video/mp4">
+                </video>
+            </div>
+    </body>
+
+</html>
