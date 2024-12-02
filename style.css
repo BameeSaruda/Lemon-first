@@ -13,10 +13,11 @@
 }
 
 p {
-    color: #ebdec0;
+    color: #d52613;
     font-size: 100px;
     position: absolute;
-    top: 618px;
+    bottom: 0px;
+    margin-bottom: 0;
     right: 20px;
 }
 
